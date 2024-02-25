@@ -25,22 +25,20 @@ mysqli_close($conn);
         <title>Landing Page</title>
         <style>
             body {
-                font-family: "Poppins";
+                font-family: Montserrat, "Poppins";
                 background-image: url(Pic/bg.jpeg);
                 background-size: cover;
                 margin: 0;
                 padding: 0;
             }
 
-            .top-nav {
+            nav {
                 display: flex;
                 justify-content: right;
             }
 
             .top-nav ul {
                 list-style: none;
-                margin: 0;
-                padding: 0;
                 margin-right: 20px;
                 display: flex;
                 vertical-align: top;
@@ -52,54 +50,50 @@ mysqli_close($conn);
                 align-items: center;
                 justify-content: center;
             }
-
             .main-card {
-                background-color: rgba(255, 255, 255, 0.3);
-                backdrop-filter: blur(10px);
-                border-radius: 10px;
+                background-color: rgba(255, 255, 255, 0.271);
+                backdrop-filter: blur(8px);
+                border-radius: 6px;
                 display: flex;
                 margin-top: 60px;
                 width: 1000px;
                 height: 500px;
             }
-
+            h1 {
+                margin-top: 4rem;
+                margin-bottom: 4rem;
+            }
             .sub1, .sub2 {
                 flex: 1;
                 padding: 20px;
             }
-
             .sub1 {
                 padding-top: 60px;
                 padding-left: 40px;
                 font-size: 20px;
-                border-radius: 10px 0px 0px 10px;
+                border-radius: 6px 0px 0px 6px;
                 background-color: #fff;
                 color: #282725;
                 text-shadow: 2px 2px 4px rgba(169, 169, 169, 0.34);
             }
 
-            .proud {
-                margin-top: 70px;
-                margin-left: 65px;
-                max-width: 70%;
-                height: auto;
+            .img {
+                margin-top: 60px;
+                margin-left: 55px;
+                max-width: 80%;
             }
 
             .login-but,
             .signin-but {
                 margin-top: 20px;
-                background-color: #4F4A45;
-                border-radius: 8px;
+                background-color: #3e3e3e;
+                border-radius: 2px;
                 width: 100px;
                 height: 40px;
                 border: none;
                 margin-right: 20px;
                 transition: all 0.4s;
                 cursor: pointer;
-            }
-
-            .signin-but {
-                margin-right: 40px;
             }
 
             .login-but:hover,
@@ -122,20 +116,19 @@ mysqli_close($conn);
         </style>
     </head>
     <body>
-        <header>
-            <nav class="top-nav">
-                <button class="login-but"><a href="login.php">Log In</a></button>
-                <button class="signin-but"><a href="regs.php">Sign Up</a></button>
-            </nav>
-        </header>
+        <nav class="top-nav">
+            <button class="login-but"><a href="login.php">Log In</a></button>
+            <button class="signin-but"><a href="regs.php">Sign Up</a></button>
+        </nav>
+
         <div class="container">
             <div class="main-card">
                 <div class="sub1">
-                    <h1>HI <br>  AND WELCOME TO <br>  ZHAR CORPORATION</h1>
+                    <h1>Welcome to<br>  Zhar Corp&#46;</h1>
                     <p>By: Al-nizar S. Wahab</p>
                 </div>
                 <div class="sub2">
-                    <img class="proud" src="Pic/proud.svg" alt="proud">
+                    <img class="img" src="Pic/proud.svg" alt="proud">
                 </div>
                 
             </div>

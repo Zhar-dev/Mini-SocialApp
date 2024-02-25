@@ -248,7 +248,7 @@ $profileUserId = $_SESSION['user_id'];
         <div class="profile">
             <img src="Pictures/ID.jpg" alt="profile">
                 <div class="profile-info">
-                    <p class="name"><?php echo $_SESSION['first_name'] . " " . $_SESSION['last_name']; ?>!</p>
+                    <p class="name"><?php echo $_SESSION['first_name'] . " " . $_SESSION['last_name']; ?></p>
                     <p class="follow"><span class="count">1M </span> Followers &#183; <span class="count">0 </span> Following</p>
                     <button class="friend-button">Add Friend</button>
                     <button class="money-button">Send Money</button>
@@ -280,7 +280,7 @@ $profileUserId = $_SESSION['user_id'];
             </div>
         </div>
         <p class="links">
-            <a href="Home.php">BACK TO HOMEPAGE</a>
+            <a href="Home.php">Homepage</a>
         </p>
     </body>
 </html>

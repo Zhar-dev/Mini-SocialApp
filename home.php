@@ -27,7 +27,7 @@ $profileUserId = $_SESSION['user_id'];
       body {
           font-family: "Poppins";
           background-color: #F6F1EE;
-          color: #4F4A45;
+          color: #343332;
       }
 
       header {
@@ -135,7 +135,7 @@ $profileUserId = $_SESSION['user_id'];
           text-align: end;
 
           margin-right: 50px;
-          margin-top: 80px;
+          margin-top: 160px;
 
           font-weight: bolder;
           font-size: 18px;
@@ -181,10 +181,10 @@ $profileUserId = $_SESSION['user_id'];
     </div>
 
     <p class="links">
-      <a href="profile.php?user_id=<?php echo $profileUserId; ?>">PROFILE &#x7c;</a>
-      <a href="gallery.php?user_id=<?php echo $profileUserId; ?>">GALLERY &#x7c;</a>
-      <a href="contact.php?user_id=<?php echo $profileUserId; ?>">CONTACT &#x7c;</a>
-      <a href="logout.php"><span class="red">LOG OUT</span></a>
+      <a href="profile.php?user_id=<?php echo $profileUserId; ?>">Profile &#x7c;</a>
+      <a href="gallery.php?user_id=<?php echo $profileUserId; ?>">Gallery &#x7c;</a>
+      <a href="contact.php?user_id=<?php echo $profileUserId; ?>">Contact &#x7c;</a>
+      <a href="logout.php"><span class="red">Log Out</span></a>
     </p>
   </body>
 </html>

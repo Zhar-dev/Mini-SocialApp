@@ -74,14 +74,16 @@ mysqli_close($conn);
             label {
                 text-align: left;
                 margin-left: 40px;
+
+                text-shadow: 2px 2px 10px gray;
                 
-                font-size: 16px;
+                font-size: 15px;
                 font-weight: 500;
             }
 
             input {
                 width: 476px;
-                height: 28px;
+                height: 30px;
                 padding-left: 6px;
 
                 margin-top: 4px;
@@ -109,20 +111,12 @@ mysqli_close($conn);
                 padding: 10px 20px;
                 cursor: pointer;
               }
-
-            .back {
-                margin-left: 60px;
-                background-color:  #5e91c5;
-            }
-
             .sub {
-                margin-left: 220px;
-                background-color:  #ED7D31;
-            }
-
-            .back, .sub {
                 width: 120px;
                 height: 36px;
+
+                margin-left: 220px;
+                background-color:  #ED7D31;
                 
                 border: none;
                 border-radius: 4px;
@@ -139,15 +133,9 @@ mysqli_close($conn);
 
                 transition: all 0.8s;
             }
-
             .sub:hover {
                 box-shadow: 2px 2px 6px rgb(122, 122, 122);
             }
-
-            .back:hover {
-                box-shadow: 2px 2px 6px rgb(122, 122, 122);
-            }
-
             .sub:active {
                 opacity: 0.6;
             }

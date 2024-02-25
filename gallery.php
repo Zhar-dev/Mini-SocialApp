@@ -142,7 +142,7 @@ if (!isset($_SESSION['user_id'])) {
         </div>
     </div>
     <p class="links">
-        <a href="Home.php">BACK TO HOMEPAGE</a>
+        <a href="Home.php">Homepage</a>
       </p>
 </body>
 </html>
