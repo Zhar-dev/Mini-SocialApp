@@ -12,7 +12,7 @@ This project was an output from my course, which is **Web System** in that cours
 - Css
 - Php
 - MySQL
-- Xammpp
+- Xampp
 
 # Previews:
 ## Landing Page
